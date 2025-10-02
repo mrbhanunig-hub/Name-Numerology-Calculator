@@ -7,9 +7,9 @@ export default function Footer() {
             <div className="rounded-lg p-6 flex flex-col md:flex-row items-center justify-center gap-10 ">
 
                 <div className="text-center md:text-left space-y-2">
-                    <p className="font-semibold text-2xl">अधिक जानकारी के लिए संपर्क करें</p>
-                    <p className="font-bold text-2xl text-orange-700">Astrologer Vivek Nigam</p>
-                    <p className="text-xl font-medium ">
+                    <p className="font-semibold text-lg">अधिक जानकारी के लिए संपर्क करें</p>
+                    <p className="font-bold text-2xl text-orange-700">Numerologist Vivek Nigam</p>
+                    <p className="text-x1 font-medium ">
                         (Astrologer, Numerologist, Vastu)
                     </p>
                     <p className="text-sm text-black">Mob: +91 9450122288, +91 8299037227</p>
@@ -31,7 +31,7 @@ export default function Footer() {
                 {/* Right Circle (Photo) */}
                 <div className="flex flex-col items-center mt-4 md:mt-0">
                     <div className="w-30 h-30 rounded-full flex items-center justify-center overflow-hidden">
-                    <img className="h-full w-full" src="./public/profile.jpeg" alt="" />
+                    <img className="h-full w-full" src="./profile.jpeg" alt="" />
                     </div>
                 </div>
             </div>

@@ -19,7 +19,8 @@ export default function NameDOBAnalysis({ namank, moolank, bhagyank }) {
 
   return (
     <div className="mt-6 p-4 bg-yellow-100 rounded-lg shadow">
-      <h2 className="font-bold text-lg mb-3">📊 Name and Date of Birth Analysis</h2>
+      <h2 className="font-semibold text-lg">Name Number compatibility with Personality & Destiny Number</h2>
+      <h2 className="font-semibold text-lg mb-3">मूलांक और भाग्यांक के साथ नामांक की अनुकूलता</h2>
       
       <p>
         नामांक ({namank}) और मूलांक ({moolank}) के बीच संबंध: 
