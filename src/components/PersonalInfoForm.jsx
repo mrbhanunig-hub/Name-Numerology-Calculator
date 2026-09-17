@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import { calcBhagyankFromISO, calcMoolankFromISO, calcNameNumber } from "../utils/numerology";
 
 export default function PersonalInfoForm({ onCalculate, onReset }) {
-    const [first, setFirst] = useState("");
-    const [middle, setMiddle] = useState("");
-    const [last, setLast] = useState("");
-    const [dob, setDob] = useState("");
+    const _params = new URLSearchParams(window.location.search);
+    const [first, setFirst] = useState(_params.get("first") || "");
+    const [middle, setMiddle] = useState(_params.get("middle") || "");
+    const [last, setLast] = useState(_params.get("last") || "");
+    const [dob, setDob] = useState(_params.get("dob_iso") || "");
 
     function handleCalculate(e) {
         e.preventDefault();
